@@ -146,6 +146,14 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
 .nl-note{margin-top:14px;font-size:11.5px;color:var(--muted-2);line-height:1.5}
 .nl-success{text-align:center;padding:16px 0}
 .nl-success .ok{font-size:44px;color:var(--green);line-height:1;margin-bottom:12px}
+
+/* generated imagery */
+.hero-visual{margin-top:40px;border-radius:20px;overflow:hidden;border:1px solid var(--line);position:relative;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.hero-visual img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+.hero-visual::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,19,30,.05),rgba(13,19,30,.55));pointer-events:none}
+.band{margin:0;border-radius:18px;overflow:hidden;border:1px solid var(--line);position:relative}
+.band img{width:100%;display:block;aspect-ratio:21/9;object-fit:cover}
+.band::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,19,30,.10),rgba(13,19,30,.60));pointer-events:none}
 </style>
 </head>
 <body>
@@ -178,6 +186,7 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
       <div class="avatar"><img src="lara-avatar.jpg" alt="Dr. Lara Vadlau"></div>
       <div>Von <b>Dr. Lara Vadlau</b> · Longevity Medicine</div>
     </div>
+    <div class="hero-visual reveal"><img src="hero.webp" alt="Laborproben auf Edelstahl" loading="eager"></div>
   </div>
 </section>
 
@@ -283,6 +292,13 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
       <p>Kreatinin entsteht im Muskel. Wer viel Muskelmasse hat, viel Fleisch isst oder Kreatin nimmt, hat höhere Werte, ohne dass die Niere schlechter arbeitet. Umgekehrt kann bei wenig Muskelmasse ein <b>unauffälliges Kreatinin eine bereits eingeschränkte Funktion verdecken</b>.</p>
       <p>Deshalb der Rat: nicht auf den Einzelwert schauen, sondern auf <b>eGFR plus Urin-Albumin</b>. Und wenn es genauer sein soll, den eGFR auf Basis von Cystatin C bestimmen lassen.</p>
     </div>
+  </div>
+</section>
+
+<!-- SECTION IMAGE -->
+<section style="padding:0 0 8px;border-top:none">
+  <div class="container">
+    <div class="band reveal"><img src="sec.webp" alt="Wasser wird eingeschenkt" loading="lazy"></div>
   </div>
 </section>
 
